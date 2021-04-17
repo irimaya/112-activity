@@ -1,0 +1,160 @@
+/* Main Styling */
+/* html,
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 { font-size: 2.5rem; }
+
+h4 { 
+  font-size: 32px; 
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; } */
+
+/* Utility Classes */
+/* .container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+} */
+
+.display-1 { 
+  font-size: 60px; 
+  /* font-weight: 200;
+  color: #fff; */
+}
+
+/* Header */
+header {
+  height: 100%;
+  /* background: #0E0A1F; */
+}
+
+/* Navbar */
+/* #navbar {
+  background: #0E0A1F;
+  color: #fff;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+/* #navbar a {
+  color: #fff;
+} */
+
+#navbar .logo {
+  float: none;
+  /* padding-top: 16px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase; */
+  text-align: center;
+  padding-bottom: 14px;
+}
+
+#navbar ul {
+  /* list-style: none; */
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 10px;
+}
+
+/* Showcase */
+#showcase {
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+}
+
+#showcase h1 {
+  padding-bottom: 20px;
+}
+
+.showcase-row img {
+  height: 100px;
+}
+
+.card {
+  margin: 10px;
+}
+
+/* .card-1 { background: #B8FFE2; }
+.card-2 { background: #98FBFF; }
+.card-3 { background: #F3F3F3; }
+.card-4 { background: #F6B3B8; }
+
+.card-1,
+.card-3 { 
+  float: left;
+  width: 45%;
+}
+
+.card-2,
+.card-4 { 
+  float: right;
+  width: 45%;
+} */
+
+/* Fitness */
+#fitness,
+#swimming,
+#spa,
+#golf {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#fitness img,
+#swimming img,
+#spa img,
+#golf img {
+  height: auto;
+  width: 100%;
+}
+
+.fitness-img,
+.swimming-img,
+.spa-img,
+.golf-img {
+  float: none;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.fitness-text,
+.swimming-text,
+.spa-text,
+.golf-text {
+  float: none;
+  width: 100%;
+  padding-top: 10px;
+}
+
+
+/* Footer */
+#mainfooter {
+  background: #0E0A1F;
+  text-align: center;
+  padding:30px;
+}

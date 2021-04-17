@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1 { font-size: 2.5rem; }
+
+h4 { 
+  font-size: 32px; 
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a { text-decoration: none; }
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 { 
+  font-size: 88px; 
+  font-weight: 200;
+  color: #fff;
+}
+
+/* Header */
+header {
+  height: 100vh;
+  background: #0E0A1F;
+}
+
+/* Navbar */
+#navbar {
+  background: #0E0A1F;
+  color: #fff;
+  overflow: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#showcase h1 {
+  padding-bottom: 50px;
+}
+
+#showcase p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.showcase-row {
+  color: #0E0A1F;
+}
+
+.showcase-row img {
+  height: 150px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card p {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.card-1 { background: #B8FFE2; }
+.card-2 { background: #98FBFF; }
+.card-3 { background: #F3F3F3; }
+.card-4 { background: #F6B3B8; }
+
+.card-1,
+.card-3 { 
+  float: left;
+  width: 45%;
+}
+
+.card-2,
+.card-4 { 
+  float: right;
+  width: 45%;
+}
+
+/* Fitness */
+#fitness {
+  background: #B8FFE2;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+
+#fitness img {
+  height: 400px;
+}
+
+.fitness-img {
+  float: left;
+  width: 40%;
+}
+
+.fitness-text {
+  float: right;
+  width: 60%;
+  padding-top: 70px;
+}
+
+/* Swimming */
+#swimming {
+  background: #98FBFF;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+
+#swimming img {
+  height: 400px;
+}
+
+.swimming-img {
+  float: right;
+  width: 40%;
+}
+
+.swimming-text {
+  float: left;
+  width: 60%;
+  padding-top: 70px;
+}
+
+/* Spa */
+#spa {
+  background: #F3F3F3;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+
+#spa img {
+  height: 400px;
+}
+
+.spa-img {
+  float: left;
+  width: 40%;
+}
+
+.spa-text {
+  float: right;
+  width: 60%;
+  padding-top: 70px;
+}
+
+/* Golf */
+#golf {
+  background: #F6B3B8;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+
+#golf img {
+  height: 400px;
+}
+
+.golf-img {
+  float: right;
+  width: 40%;
+}
+
+.golf-text {
+  float: left;
+  width: 60%;
+  padding-top: 70px;
+}
+
+/* Footer */
+#mainfooter {
+  background: #0E0A1F;
+  text-align: center;
+  padding:30px;
+}
