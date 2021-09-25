@@ -2,7 +2,7 @@
 
 /* Reset */
 * {
-  margin: 0;
+  margin: 0; 
   padding: 0;
   box-sizing: border-box;
 }
@@ -14,22 +14,25 @@ body {
   scroll-behavior: smooth;
 }
 
-h1 { font-size: 2.5rem; }
+h1 { font-size: 40px; }
 
-h4 { 
-  font-size: 32px; 
+h4 {
+  font-size: 32px;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
 }
 
-p {
-  font-size: 1rem;
+p,
+h5 {
+  font-size: 16px;
   margin: 10px 0;
   line-height: 1.7em;
 }
 
-a { text-decoration: none; }
+a {
+  text-decoration: none;
+}
 
 /* Utility Classes */
 .container {
@@ -39,21 +42,25 @@ a { text-decoration: none; }
   padding: 0 20px;
 }
 
-.display-1 { 
-  font-size: 88px; 
+.display-1 {
+  font-size: 85px;
   font-weight: 200;
-  color: #fff;
+  color:#fff;
 }
 
+.fitness { background:#B8FFE2; }
+.swimming { background:#98FBFF; }
+.spa { background:#F3F3F3; }
+.golf { background:#F6B3B8; }
+
 /* Header */
-header {
+#mainheader {
   height: 100vh;
   background: #0E0A1F;
 }
 
 /* Navbar */
 #navbar {
-  background: #0E0A1F;
   color: #fff;
   overflow: auto;
   padding-top: 20px;
@@ -81,152 +88,88 @@ header {
   float: left;
 }
 
-#navbar ul li a {
+#navbar ul li a{
   display: block;
   padding: 20px;
   text-align: center;
 }
 
-#navbar ul li a:hover,
-#navbar ul li a.current {
+#navbar ul li a:hover {
   text-decoration: underline;
 }
 
 /* Showcase */
 #showcase {
   padding-top: 60px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
 #showcase h1 {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
-#showcase p {
-  font-size: 24px;
+#showcase h5 {
+  /* font-size: 24px; */
   font-weight: 500;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .showcase-row {
   color: #0E0A1F;
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .showcase-row img {
-  height: 150px;
+  height: 100px;
 }
 
 .card {
   border-radius: 20px;
   padding: 10px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
-.card p {
-  text-align: left;
-  padding-left: 20px;
-}
-
-.card-1 { background: #B8FFE2; }
-.card-2 { background: #98FBFF; }
-.card-3 { background: #F3F3F3; }
-.card-4 { background: #F6B3B8; }
-
-.card-1,
-.card-3 { 
+.card-left {
   float: left;
   width: 45%;
 }
 
-.card-2,
-.card-4 { 
+.card-right {
   float: right;
   width: 45%;
 }
 
-/* Fitness */
-#fitness {
-  background: #B8FFE2;
+/* Activity */
+.activity {
   padding-top: 110px;
   padding-bottom: 70px;
 }
 
-#fitness img {
+.activity img {
   height: 400px;
 }
 
-.fitness-img {
+.activity .img-left {
   float: left;
   width: 40%;
 }
 
-.fitness-text {
-  float: right;
-  width: 60%;
-  padding-top: 70px;
-}
-
-/* Swimming */
-#swimming {
-  background: #98FBFF;
-  padding-top: 110px;
-  padding-bottom: 70px;
-}
-
-#swimming img {
-  height: 400px;
-}
-
-.swimming-img {
+.activity .img-right {
   float: right;
   width: 40%;
 }
 
-.swimming-text {
+.activity .text-left {
   float: left;
   width: 60%;
   padding-top: 70px;
 }
 
-/* Spa */
-#spa {
-  background: #F3F3F3;
-  padding-top: 110px;
-  padding-bottom: 70px;
-}
-
-#spa img {
-  height: 400px;
-}
-
-.spa-img {
-  float: left;
-  width: 40%;
-}
-
-.spa-text {
+.activity .text-right {
   float: right;
-  width: 60%;
-  padding-top: 70px;
-}
-
-/* Golf */
-#golf {
-  background: #F6B3B8;
-  padding-top: 110px;
-  padding-bottom: 70px;
-}
-
-#golf img {
-  height: 400px;
-}
-
-.golf-img {
-  float: right;
-  width: 40%;
-}
-
-.golf-text {
-  float: left;
   width: 60%;
   padding-top: 70px;
 }
@@ -235,5 +178,5 @@ header {
 #mainfooter {
   background: #0E0A1F;
   text-align: center;
-  padding:30px;
+  padding: 30px;
 }
